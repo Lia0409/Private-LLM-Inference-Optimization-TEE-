@@ -2,6 +2,7 @@
 
 ### 2025
 - Sun, Tong, Bowen Jiang, Hailong Lin, et al. “TensorShield: Safeguarding On-Device Inference by Shielding Critical DNN Tensors with TEE.” arXiv:2505.22735. Preprint, arXiv, May 28, 2025. https://doi.org/10.48550/arXiv.2505.22735. (ACM CCS'25)
+  - **Code:** [https://github.com/suntong30/TensorShield](https://github.com/suntong30/TensorShield)
 - Li, Ding, Ziqi Zhang, Mengyu Yao, Yifeng Cai, Yao Guo, and Xiangqun Chen. “TEESlice : Protecting Sensitive Neural Network Models in Trusted Execution Environments When Attackers Have Pre-Trained Models.” ACM Transactions on Software Engineering and Methodology 34, no. 6 (2025): 1–49. https://doi.org/10.1145/3707453.
 - Sun, Yu, Gaojian Xiong, Jianhua Liu, Zheng Liu, and Jian Cui. “TSQP: Safeguarding Real-Time Inference for Quantization Neural Networks on Edge Devices.” 2025 IEEE Symposium on Security and Privacy (SP), May 2025, 2114–32. https://doi.org/10.1109/SP61157.2025.00001.
 - Bai, Juyang, Md Hafizul Islam Chowdhuryy, Jingtao Li, Fan Yao, Chaitali Chakrabarti, and Deliang Fan. “Phantom: Privacy-Preserving Deep Neural Network Model Obfuscation in Heterogeneous TEE and GPU System.” 2025, 5565–82. https://www.usenix.org/conference/usenixsecurity25/presentation/bai-juyang.
