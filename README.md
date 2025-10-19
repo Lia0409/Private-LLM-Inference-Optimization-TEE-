@@ -53,6 +53,7 @@
 ### 2021
 
 - Ng, Lucien K. L., Sherman S. M. Chow, Anna P. Y. Woo, Donald P. H. Wong, and Yongjun Zhao. “Goten: GPU-Outsourcing Trusted Execution of Neural Network Training.” Proceedings of the AAAI Conference on Artificial Intelligence 35, no. 17 (2021): 14876–83. https://doi.org/10.1609/aaai.v35i17.17746.
+  - **Code:** [https://github.com/goten-team/Goten](https://github.com/goten-team/Goten)
 -  Hashemi, Hanieh, Yongqin Wang, and Murali Annavaram. “DarKnight: An Accelerated Framework for Privacy and Integrity Preserving Deep Learning Using Trusted Hardware.” MICRO-54: 54th Annual IEEE/ACM International Symposium on Microarchitecture, ACM, October 18, 2021, 212–24. https://doi.org/10.1145/3466752.3480112.
 
 
