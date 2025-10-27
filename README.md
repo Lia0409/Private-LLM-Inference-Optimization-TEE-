@@ -1,4 +1,20 @@
-# Private-LLM-Inference-Optimization-TEE
+# A Curated List of Papers on LLM Inference Optimization
+
+This repository collects papers on two main topics:
+1. **Secure Inference via TEE-Shielded DNN Partitioning**: Explores methods that partition a Deep Neural Network (DNN) between a resource-constrained secure environment (like a TEE) and a powerful untrusted host (like a GPU). The core idea is to offload the bulk of computation to the GPU while executing only a small, critical portion of the model within the TEE. 
+2.  **Efficient Inference for Large Language Models**: Focuses on techniques to optimize the performance (latency, throughput, memory) of Large Language Models (LLMs) on various hardware. 
+
+---
+
+## Contents
+
+- [Secure Inference via TEE-Shielded DNN Partitioning](#secure-inference-via-tee-shielded-dnn-partitioning)
+- [Efficient Inference for Large Language Models](#efficient-inference-for-large-language-models)
+
+---
+
+## Secure Inference via TEE-Shielded DNN Partitioning
+
 
 ### 2025
 - Sun, Tong, Bowen Jiang, Hailong Lin, et al. “TensorShield: Safeguarding On-Device Inference by Shielding Critical DNN Tensors with TEE.” arXiv:2505.22735. Preprint, arXiv, May 28, 2025. https://doi.org/10.48550/arXiv.2505.22735. (ACM CCS'25)
@@ -14,19 +30,12 @@
 
 
 
-
-
-
 ### 2024
-
 
 
 - Mishra, Abhijit, Mingda Li, and Soham Deo. “SentinelLMs: Encrypted Input Adaptation and Fine-Tuning of Language Models for Private and Secure Inference.” Proceedings of the AAAI Conference on Artificial Intelligence 38, no. 19 (2024): 21403–11. https://doi.org/10.1609/aaai.v38i19.30136. ![Focus](https://img.shields.io/badge/LLM-blue)
   - **Code:** [https://github.com/abhijitmishra/sentinellm-aaai2024](https://github.com/abhijitmishra/sentinellm-aaai2024)
 - Li, Qinfeng, Zhiqiang Shen, Zhenghan Qin, et al. “TransLinkGuard: Safeguarding Transformer Models Against Model Stealing in Edge Deployment.” Proceedings of the 32nd ACM International Conference on Multimedia, ACM, October 28, 2024, 3479–88. https://doi.org/10.1145/3664647.3680786. ![Focus](https://img.shields.io/badge/LLM-blue)
-
-
-
 
 - Zhang, Ziqi, Chen Gong, Yifeng Cai, et al. “No Privacy Left Outside: On the (In-)Security of TEE-Shielded DNN Partition for On-Device ML.” 2024 IEEE Symposium on Security and Privacy (SP), IEEE, May 19, 2024, 3327–45. https://doi.org/10.1109/SP54263.2024.00052.
 - Zhang, Zheng, Na Wang, Ziqi Zhang, et al. “GroupCover: A Secure, Efficient and Scalable Inference Framework for On-Device Model Protection Based on TEEs.” Proceedings of the 41st International Conference on Machine Learning, PMLR, July 8, 2024, 59992–60003. https://proceedings.mlr.press/v235/zhang24bn.html.
@@ -64,6 +73,17 @@
   - **Code:** [https://github.com/ftramer/slalom](https://github.com/ftramer/slalom)
 
 
+ 
+## Efficient Inference for Large Language Models
 
+
+- Zhou, Zixuan, Xuefei Ning, Ke Hong, et al. “A Survey on Efficient Inference for Large Language Models.” arXiv:2404.14294. Preprint, arXiv, July 19, 2024. https://doi.org/10.48550/arXiv.2404.14294.
+- Wang, Wenxiao, Wei Chen, Yicong Luo, et al. “Model Compression and Efficient Inference for Large Language Models: A Survey.” arXiv:2402.09748. Preprint, arXiv, February 15, 2024. https://doi.org/10.48550/arXiv.2402.09748.
+
+- Li, Jinhao, Jiaming Xu, Shan Huang, et al. “Large Language Model Inference Acceleration: A Comprehensive Hardware Perspective.” arXiv:2410.04466. Preprint, arXiv, June 13, 2025. https://doi.org/10.48550/arXiv.2410.04466.
+  - **Code:** [https://github.com/Kimho666/LLM_Hardware_Survey](https://github.com/Kimho666/LLM_Hardware_Survey)
+- Liu, Jiacheng, Peng Tang, Wenfeng Wang, et al. “A Survey on Inference Optimization Techniques for Mixture of Experts Models.” arXiv:2412.14219. Preprint, arXiv, January 22, 2025. https://doi.org/10.48550/arXiv.2412.14219.
+  - **Code:** [https://github.com/MoE-Inf/awesome-moe-inference?utm_source=catalyzex.com](https://github.com/MoE-Inf/awesome-moe-inference?utm_source=catalyzex.com)
+  - **Code:** [https://github.com/MoE-Inf/awesome-moe-inference/](https://github.com/MoE-Inf/awesome-moe-inference/)
 
 
