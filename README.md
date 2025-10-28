@@ -1,4 +1,4 @@
-# A Curated List of Papers on LLM Inference Optimization
+# A List of Papers on LLM Inference Optimization
 
 This repository collects papers on two main topics:
 1. **Secure Inference via TEE-Shielded DNN Partitioning**: Explores methods that partition a Deep Neural Network (DNN) between a resource-constrained secure environment (like a TEE) and a powerful untrusted host (like a GPU). The core idea is to offload the bulk of computation to the GPU while executing only a small, critical portion of the model within the TEE. 
