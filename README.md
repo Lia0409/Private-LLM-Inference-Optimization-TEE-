@@ -32,11 +32,6 @@ This repository collects papers on two main topics:
 
 ### 2024
 
-
-- Mishra, Abhijit, Mingda Li, and Soham Deo. “SentinelLMs: Encrypted Input Adaptation and Fine-Tuning of Language Models for Private and Secure Inference.” Proceedings of the AAAI Conference on Artificial Intelligence 38, no. 19 (2024): 21403–11. https://doi.org/10.1609/aaai.v38i19.30136. ![Focus](https://img.shields.io/badge/LLM-blue)
-  - **Code:** [https://github.com/abhijitmishra/sentinellm-aaai2024](https://github.com/abhijitmishra/sentinellm-aaai2024)
-- Li, Qinfeng, Zhiqiang Shen, Zhenghan Qin, et al. “TransLinkGuard: Safeguarding Transformer Models Against Model Stealing in Edge Deployment.” Proceedings of the 32nd ACM International Conference on Multimedia, ACM, October 28, 2024, 3479–88. https://doi.org/10.1145/3664647.3680786. ![Focus](https://img.shields.io/badge/LLM-blue)
-
 - Zhang, Ziqi, Chen Gong, Yifeng Cai, et al. “No Privacy Left Outside: On the (In-)Security of TEE-Shielded DNN Partition for On-Device ML.” 2024 IEEE Symposium on Security and Privacy (SP), IEEE, May 19, 2024, 3327–45. https://doi.org/10.1109/SP54263.2024.00052.
 - Zhang, Zheng, Na Wang, Ziqi Zhang, et al. “GroupCover: A Secure, Efficient and Scalable Inference Framework for On-Device Model Protection Based on TEEs.” Proceedings of the 41st International Conference on Machine Learning, PMLR, July 8, 2024, 59992–60003. https://proceedings.mlr.press/v235/zhang24bn.html.
   - **Code:** [https://github.com/ZzzzMe/GroupCover](https://github.com/ZzzzMe/GroupCover)
@@ -71,6 +66,17 @@ This repository collects papers on two main topics:
 
 - Tramer, Florian, and Dan Boneh. “Slalom: Fast, Verifiable and Private Execution of Neural Networks in Trusted Hardware.” Paper presented at International Conference on Learning Representations. September 27, 2018. https://openreview.net/forum?id=rJVorjCcKQ.
   - **Code:** [https://github.com/ftramer/slalom](https://github.com/ftramer/slalom)
+ 
+## Secure Inference via TEE-Shielded LLM Partitioning
+
+
+- Li, Qinfeng, Zhiqiang Shen, Zhenghan Qin, et al. “TransLinkGuard: Safeguarding Transformer Models Against Model Stealing in Edge Deployment.” Proceedings of the 32nd ACM International Conference on Multimedia, ACM, October 28, 2024, 3479–88. https://doi.org/10.1145/3664647.3680786. ![Focus](https://img.shields.io/badge/LLM-blue)
+
+- Wang, Xunjie, Jiacheng Shi, Zihan Zhao, Yang Yu, Zhichao Hua, and Jinyu Gu. “TZ-LLM: Protecting On-Device Large Language Models with Arm TrustZone.” arXiv:2511.13717. Preprint, arXiv, November 17, 2025. (EUROSYS ’26)https://doi.org/10.48550/arXiv.2511.13717.  ![Focus](https://img.shields.io/badge/LLM-blue)
+  - **Code:** [https://zenodo.org/records/17213486](https://zenodo.org/records/17213486)
+
+- Xiong, Gaojian, Yu Sun, Jianhua Liu, Jian Cui, and Jianwei Liu. “LoRO: Real-Time on-Device Secure Inference for LLMs via TEE-Based Low Rank Obfuscation.” Paper presented at The Thirty-ninth Annual Conference on Neural Information Processing Systems. October 29, 2025. https://openreview.net/forum?id=de07K7kreI.  ![Focus](https://img.shields.io/badge/LLM-blue)
+  - **Code:** [https://github.com/D1aoBoomm/LoRO](https://github.com/D1aoBoomm/LoRO)
 
 
  
@@ -85,5 +91,7 @@ This repository collects papers on two main topics:
 - Liu, Jiacheng, Peng Tang, Wenfeng Wang, et al. “A Survey on Inference Optimization Techniques for Mixture of Experts Models.” arXiv:2412.14219. Preprint, arXiv, January 22, 2025. https://doi.org/10.48550/arXiv.2412.14219.
   - **Code:** [https://github.com/MoE-Inf/awesome-moe-inference?utm_source=catalyzex.com](https://github.com/MoE-Inf/awesome-moe-inference?utm_source=catalyzex.com)
   - **Code:** [https://github.com/MoE-Inf/awesome-moe-inference/](https://github.com/MoE-Inf/awesome-moe-inference/)
+
+
 
 
